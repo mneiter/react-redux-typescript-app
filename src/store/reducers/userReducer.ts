@@ -6,7 +6,7 @@ const initialUser: UserState = {
     error: null
 }
 
-export const userReduser = (state = initialUser, action: UserAction): UserState =>{
+export const userReduser = (state = initialUser, action: UserAction): UserState => {
     switch (action.type) {
         case UserAvtionType.FETCH_USERS:
             return {loading: true, error: null, users: []};
