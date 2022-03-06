@@ -6,6 +6,7 @@ const App = () => {
   return (
     <div>
       <UserList/>
+      <hr />
       <TodoList/>
     </div>
   )
